@@ -9,7 +9,7 @@ class ClaudeProfiles < Formula
 
   def install
     bin.install "bin/claude-profiles"
-    (share/"claude-profiles").install "lib/icon.js"
+    pkgshare.install "lib/icon.js"
   end
 
   def caveats
